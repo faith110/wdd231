@@ -1,0 +1,25 @@
+@media (min-width: 32rem) {
+
+  nav ul {
+    display: flex;
+    gap: 1rem;
+  }
+
+  #menu {
+    display: none;
+  }
+
+  .info-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
