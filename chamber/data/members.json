@@ -1,18 +1,18 @@
 [
   {
-    "name": "Faith Tech Hub",
-    "address": "Abuja, Nigeria",
-    "phone": "08012345678",
-    "website": "https://faithtech.com",
+    "name": "Tech Solutions Ltd",
+    "address": "12 Main Street",
+    "phone": "+2348012345678",
+    "website": "https://example.com",
     "image": "tech.jpg",
     "membership": 3
   },
   {
-    "name": "Green Foods",
-    "address": "Abuja, Nigeria",
-    "phone": "08098765432",
-    "website": "https://greenfoods.com",
-    "image": "food.jpg",
+    "name": "Green Farms",
+    "address": "Farm Road 5",
+    "phone": "+2348098765432",
+    "website": "https://green.com",
+    "image": "farm.jpg",
     "membership": 2
   }
 ]
