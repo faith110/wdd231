@@ -9,3 +9,16 @@
         grid-template-columns: repeat(3, 1fr);
     }
 }
+@media (min-width: 768px) {
+
+    .spotlights {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+    }
+
+    .events, .weather {
+        display: flex;
+        justify-content: space-between;
+    }
+}

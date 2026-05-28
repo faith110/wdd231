@@ -43,3 +43,40 @@ h1{
     border: 1px solid #ccc;
     padding: 1rem;
 }
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #003366;
+    color: white;
+}
+/* HERO */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.cta {
+    background: orange;
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+}
+
+
+/* SPOTLIGHT */
+.spot-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 1rem 0;
+}
