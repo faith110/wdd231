@@ -54,3 +54,39 @@ footer {
     color: white;
     padding: 1rem;
 }
+.hero {
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+}
+
+.hero-text {
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    color: white;
+}
+
+.cta {
+    background: orange;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.join-container {
+    display: block;
+}
+
+.cards {
+    margin-top: 1rem;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    opacity: 0;
+    animation: fadeIn 2s forwards;
+}

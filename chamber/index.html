@@ -19,13 +19,14 @@
 <script src="scripts/home.js" defer></script>
 </head>
 <body>
+
 <header>
     <button id="menu">☰</button>
     <nav>
         <ul>
-            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html" class="active">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
-            <li><a href="#">Join</a></li>
+            <li><a href="join.html">Join</a></li>
             <li><a href="#">Discover</a></li>
         </ul>
     </nav>
@@ -35,7 +36,7 @@
 
     <!-- HERO -->
     <section class="hero">
-        <img src="images/hero.jpg" alt="Abuja city view">
+        <img src="images/hero.jpg" alt="Abuja city">
         <div class="hero-text">
             <h1>Welcome to Abuja Chamber of Commerce</h1>
             <a href="#" class="cta">Join the Chamber</a>
@@ -45,19 +46,19 @@
     <!-- EVENTS -->
     <section class="events">
         <h2>Current Events</h2>
-        <p>📅 Business Networking Event – June 15</p>
+        <p>📅 Business Networking – June 15</p>
         <p>📅 Startup Workshop – June 25</p>
     </section>
 
     <!-- WEATHER -->
     <section class="weather">
         <h2>Weather</h2>
-        <p><strong>Temperature:</strong> <span id="temp"></span></p>
-        <p><strong>Condition:</strong> <span id="desc"></span></p>
+        <p>Temperature: <span id="temp"></span></p>
+        <p>Condition: <span id="desc"></span></p>
         <div id="forecast"></div>
     </section>
 
-    <!-- SPOTLIGHTS -->
+    <!-- SPOTLIGHT -->
     <section class="spotlights">
         <h2>Featured Businesses</h2>
         <div id="spotlight-container"></div>
@@ -67,8 +68,8 @@
 
 <footer>
     <p>📍 Abuja, Nigeria</p>
-    <p>📞 +2348069868432</p>
-    <p>✉️ faithdavid@gmail.com</p>
+    <p>📞 +2348169868432</p>
+    <p>✉️ chofaith05@gmail.com</p>
 
     <p>&copy; <span id="year"></span> | Ojochogwu Faith David | WDD 231</p>
     <p>Last Modified: <span id="lastModified"></span></p>
