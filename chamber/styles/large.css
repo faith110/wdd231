@@ -2,22 +2,14 @@
 
     nav ul {
         display: flex;
-        gap: 1rem;
+        justify-content: space-around;
     }
 
     #members.grid {
         grid-template-columns: repeat(3, 1fr);
     }
-}
-@media (min-width: 768px) {
 
-    .spotlights {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 1rem;
-    }
-
-    .events, .weather {
+    #members.list .card {
         display: flex;
         justify-content: space-between;
     }

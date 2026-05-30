@@ -1,82 +1,53 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
+    font-family: Arial;
 }
 
-header, footer {
-    background: #003366;
-    color: white;
-    padding: 1rem;
-}
-
-nav {
-    width: 100%;
-    background-color: #003366;
-}
-
+/* NAV */
 nav ul {
-    display: flex;
-    justify-content: space-between;
+    display: none;
     list-style: none;
-    margin: 0;
-    padding: 0 2rem;
+    padding: 0;
+}
+
+nav ul.open {
+    display: block;
 }
 
 nav a {
     color: white;
     text-decoration: none;
 }
-h1{
-    text-align: center;
+
+header {
+    background: #003366;
+    padding: 1rem;
 }
+
+.active {
+    text-decoration: underline;
+}
+
+/* MEMBERS */
 #members.grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1rem;
 }
 
-#members.list {
-    display: block;
+#members.list img {
+    display: none;
 }
 
 .card {
     border: 1px solid #ccc;
     padding: 1rem;
 }
+
+/* FOOTER */
 footer {
     text-align: center;
+    background: #003366;
+    color: white;
     padding: 1rem;
-    background-color: #003366;
-    color: white;
-}
-/* HERO */
-.hero {
-    position: relative;
-}
-
-.hero img {
-    width: 100%;
-    height: auto;
-}
-
-.hero-text {
-    position: absolute;
-    top: 30%;
-    left: 10%;
-    color: white;
-}
-
-.cta {
-    background: orange;
-    padding: 10px 15px;
-    color: white;
-    text-decoration: none;
-}
-
-
-/* SPOTLIGHT */
-.spot-card {
-    border: 1px solid #ccc;
-    padding: 1rem;
-    margin: 1rem 0;
 }

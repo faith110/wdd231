@@ -14,5 +14,45 @@
     "website": "https://green.com",
     "image": "farm.jpg",
     "membership": 2
+  },
+  {
+    "name": "City Bank",
+    "address": "Abuja",
+    "phone": "+234800000003",
+    "website": "https://example.com",
+    "image": "bank.jpg",
+    "membership": 3
+  },
+  {
+    "name": "Fresh Foods",
+    "address": "Abuja",
+    "phone": "+234800000004",
+    "website": "https://example.com",
+    "image": "freshfoods.jpg",
+    "membership": 1
+  },
+  {
+    "name": "BuildCo",
+    "address": "No 5 comase close, Abuja",
+    "phone": "+234800000005",
+    "website": "https://example.com",
+    "image": "building.jpg",
+    "membership": 2
+  },
+  {
+    "name": "Logistics",
+    "address": "Central area Abuja",
+    "phone": "+234800000006",
+    "website": "https://example.com",
+    "image": "logistics.jpg",
+    "membership": 1
+  },
+  {
+    "name": "Digital Hub",
+    "address": "games village,Abuja",
+    "phone": "+234800000007",
+    "website": "https://example.com",
+    "image": "techhub.jpg",
+    "membership": 3
   }
 ]
