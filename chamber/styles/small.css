@@ -23,6 +23,9 @@ header {
     background: #003366;
     padding: 1rem;
 }
+h1{
+    text-align: center;
+}
 
 .active {
     text-decoration: underline;
