@@ -25,12 +25,10 @@ links.forEach(link => {
 
 
 // CLOSE BUTTONS
-const dialogs = document.querySelectorAll("dialog");
-
-dialogs.forEach(dialog => {
-    const btn = dialog.querySelector("button");
-    btn.addEventListener("click", () => {
-        dialog.close();
+// CLOSE MODALS
+document.querySelectorAll(".close-btn").forEach(button => {
+    button.addEventListener("click", function () {
+        this.closest("dialog").close();
     });
 });
 // HAMBURGER MENU
