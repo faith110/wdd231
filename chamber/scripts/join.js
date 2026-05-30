@@ -12,6 +12,27 @@ function openModal(id) {
 function closeModal(id) {
     document.getElementById(id).close();
 }
+// OPEN MODALS
+const links = document.querySelectorAll(".modal-link");
+
+links.forEach(link => {
+    link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const modalId = link.dataset.modal;
+        document.getElementById(modalId).showModal();
+    });
+});
+
+
+// CLOSE BUTTONS
+const dialogs = document.querySelectorAll("dialog");
+
+dialogs.forEach(dialog => {
+    const btn = dialog.querySelector("button");
+    btn.addEventListener("click", () => {
+        dialog.close();
+    });
+});
 // HAMBURGER MENU
 const menuBtn = document.getElementById("menu");
 const nav = document.querySelector("nav ul");

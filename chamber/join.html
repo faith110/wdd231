@@ -3,11 +3,11 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abuja Chamber of Commerce home page</title>
+<title>Chamber of Commerce join page</title>
 <meta name="description" content="ojochogwu faith David WDD231 Web frontend, Project chamber of commerce">
 <meta name="author" content="ojochogwu faith david">
 <link rel="icon" type="image/png" href="images/favicon.png">
-<meta property="og:title" content="Abuja Chamber of Commerce home page">
+<meta property="og:title" content="Abuja Chamber of Commerce Join Page">
 <meta property="og:description" content="Welcome to the Abuja Chamber of Commerce! Connect with local businesses and entrepreneurs.">
 <meta property="og:image" content="https://faith110.github.io/wdd231/chamber/images/hero.jpg">
 <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
@@ -62,19 +62,26 @@ pattern="[A-Za-z\s\-]{7,}" autocomplete="organization-title">
 <!-- EMAIL -->
 <label>
 Email:
-<input type="email" name="email" required placeholder="example@email.com" autocomplete="email">
+<input type="email" name="email" required 
+title="Enter a valid email address" 
+placeholder="example@email.com" 
+autocomplete="email">
 </label>
 
 <!-- PHONE -->
 <label>
-Phone:
-<input type="tel" name="phone" required autocomplete="tel">
+Mobile Phone:
+<input type="tel" name="phone" required 
+title="Enter your mobile phone number" 
+autocomplete="tel">
 </label>
 
 <!-- BUSINESS -->
 <label>
-Business Name:
-<input type="text" name="business" required autocomplete="organization">
+Organization Name:
+<input type="text" name="business" required 
+title="Enter your business or organization name" 
+autocomplete="organization">
 </label>
 
 <!-- MEMBERSHIP -->
@@ -90,8 +97,9 @@ Membership Level:
 
 <!-- DESCRIPTION -->
 <label>
-Business Description:
-<textarea name="description"></textarea>
+Organization Description:
+<textarea name="description" 
+title="Describe your business or organization"></textarea>
 </label>
 
 <!-- TIMESTAMP -->
@@ -107,22 +115,22 @@ Business Description:
 
 <div class="card">
 <h3>NP Membership</h3>
-<a href="#" onclick="openModal('npModal')">Learn More</a>
+<a href="#" class="modal-link" data-modal="npModal">Learn More</a>
 </div>
 
 <div class="card">
 <h3>Bronze</h3>
-<a href="#" onclick="openModal('bronzeModal')">Learn More</a>
+<a href="#" class="modal-link" data-modal="bronzeModal">Learn More</a>
 </div>
 
 <div class="card">
 <h3>Silver</h3>
-<a href="#" onclick="openModal('silverModal')">Learn More</a>
+<a href="#" class="modal-link" data-modal="silverModal">Learn More</a>
 </div>
 
 <div class="card">
 <h3>Gold</h3>
-<a href="#" onclick="openModal('goldModal')">Learn More</a>
+<a href="#" class="modal-link" data-modal="goldModal">Learn More</a>
 </div>
 
 </div>
