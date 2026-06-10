@@ -3,12 +3,12 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Abuja Chamber of Commerce Directory</title>
+<title>Abuja Chamber of Commerce discover page</title>
 <meta name="description" content="ojochogwu faith David WDD231 Web frontend, Project chamber of commerce">
 <meta name="author" content="ojochogwu faith david">
 <link rel="icon" type="image/png" href="images/favicon.png">
-<meta property="og:title" content="Abuja Chamber of Commerce Directory">
-<meta property="og:description" content="Explore trusted businesses, connect with local entrepreneurs, and discover opportunities in Abuja's Chamber of Commerce directory.">
+<meta property="og:title" content="Abuja Chamber of Commerce discover page">
+<meta property="og:description" content="Discover the Abuja Chamber of Commerce and its member businesses.">
 <meta property="og:image" content="https://faith110.github.io/wdd231/chamber/images/hero.jpg">
 <meta property="og:url" content="https://yourdomain.com/chamber/directory.html">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -16,40 +16,35 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles/small.css">
 <link rel="stylesheet" href="styles/large.css">
-<script src="scripts/directory.js" defer></script>
+ <script type="module" src="scripts/discover.js" defer></script>
 </head>
 <body>
 
 <header>
     <button id="menu">☰</button>
+
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="directory.html">Directory</a></li>
             <li><a href="join.html">Join</a></li>
-            <li><a href="discover.html">Discover</a></li>
+            <li><a href="discover.html" class="active">Discover</a></li>
         </ul>
     </nav>
 </header>
 
 <main>
-    <h1>Chamber of Commerce</h1>
-    <h2>Business Directory</h2>
 
-    <div class="view-buttons">
-        <button id="gridBtn">Grid</button>
-        <button id="listBtn">List</button>
-    </div>
+<h1>Discover Abuja</h1>
 
-    <section id="members" class="grid"></section>
+<div id="visit-message"></div>
+
+<section id="discover-grid"></section>
+
 </main>
 
 <footer>
-    <p>📍 Address: ABC City</p>
-    <p>📞 Phone: 000-000-0000</p>
-    <p>✉️ Email: info@chamber.com</p>
-
-    <p>&copy; <span id="year"></span> | Ojochogwu Faith David | WDD 231</p>
+    <p>&copy; <span id="year"></span> Ojochogwu Faith David | WDD 231</p>
     <p>Last Modified: <span id="lastModified"></span></p>
 </footer>
 

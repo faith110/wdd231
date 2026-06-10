@@ -90,3 +90,28 @@ footer {
     opacity: 0;
     animation: fadeIn 2s forwards;
 }
+/*discover page*/
+#visit-message{
+background:#eee;
+padding:1rem;
+margin:1rem;
+text-align:center;
+font-weight:bold;
+}
+
+#discover-grid{
+display:grid;
+gap:1rem;
+}
+
+.discover-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    display: block;
+    border-radius: 8px;
+}
+.discover-card {
+    border: 1px solid #ccc;
+    padding: 1rem;
+}
