@@ -1,0 +1,46 @@
+@media screen and (min-width:768px){
+
+#menu-btn{
+display:none;
+}
+
+nav ul{
+display:flex !important;
+justify-content:center;
+gap:2rem;
+}
+
+.hero{
+display:grid;
+grid-template-columns:1fr 1fr;
+align-items:center;
+}
+
+.hero-text{
+padding:2rem;
+text-align:left;
+}
+
+.features{
+grid-template-columns:
+repeat(3,1fr);
+}
+
+.feature-card{
+transition:transform .3s;
+}
+
+.feature-card:hover{
+transform:translateY(-5px);
+}
+
+}
+#workout-container {
+
+display:grid;
+grid-template-columns:
+repeat(auto-fit,minmax(250px,1fr));
+
+gap:1rem;
+
+}

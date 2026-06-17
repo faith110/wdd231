@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Workout Programs | Women's Fitness Hub</title>
+<link rel="icon" type="image/webp" href="images/dumbell.webp">
+<meta name="description" content="Browse workout programs for women including strength training, cardio, flexibility, and wellness routines.">
+
+<meta name="author" content="Ojochogwu Faith David">
+
+<meta property="og:title" content="Women's Fitness & Wellness Hub">
+<meta property="og:description" content="Empowering women through fitness, nutrition, and wellness.">
+<meta property="og:image" content="images/hero.webp">
+<meta property="og:url" content="https://faith110.github.io/wdd231/finalproject/">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles/small.css">
+<link rel="stylesheet" href="styles/large.css">
+
+<script type="module" src="scripts/workouts.js"></script>
+
+</head>
+<body>
+
+<header>
+
+<div class="logo">
+<h1>Women's Fitness Hub</h1>
+</div>
+
+<button id="menu-btn">☰</button>
+
+<nav>
+<ul id="nav-links">
+<li><a href="index.html">Home</a></li>
+<li><a href="workouts.html" class="active">Workouts</a></li>
+<li><a href="nutrition.html">Nutrition</a></li>
+<li><a href="contact.html">Contact</a></li>
+</ul>
+</nav>
+
+</header>
+
+<main>
+
+<h1>Workout Programs</h1>
+
+<div class="filter-section">
+<label for="difficulty">Preferred Difficulty:</label>
+
+<select id="difficulty">
+<option value="All">All</option>
+<option value="Beginner">Beginner</option>
+<option value="Intermediate">Intermediate</option>
+<option value="Advanced">Advanced</option>
+</select>
+</div>
+
+<section id="workout-container"></section>
+
+<dialog id="workoutModal">
+
+<div id="modalContent"></div>
+
+<button id="closeModal">Close</button>
+
+</dialog>
+
+</main>
+
+<footer>
+
+<p>&copy; <span id="year"></span> Ojochogwu Faith David</p>
+
+<a href="attributions.html">Attributions</a>
+
+<p id="lastModified"></p>
+
+</footer>
+
+</body>
+</html>

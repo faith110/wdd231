@@ -1,0 +1,122 @@
+[
+{
+"name":"squats",
+"duration":"30 Minutes",
+"difficulty":"Beginner",
+"calories":"250",
+"image":"images/squat.webp",
+"equipment":"None"
+},
+{
+"name":"Bulgarian squat",
+"duration":"45 Minutes",
+"difficulty":"Intermediate",
+"calories":"350",
+"image":"images/bulgarian-squat.webp",
+"equipment":"Dumbbells"
+},
+{
+"name":"deadlift",
+"duration":"25 Minutes",
+"difficulty":"Beginner",
+"calories":"300",
+"image":"images/deadlift.webp",
+"equipment":"None"
+},
+{
+"name":"cable kickbacks",
+"duration":"20 Minutes",
+"difficulty":"Intermediate",
+"calories":"220",
+"image":"images/cable-kickbacks.webp",
+"equipment":"Mat"
+},
+{
+"name":"Donkey Kicks",
+"duration":"30 Minutes",
+"difficulty":"Advanced",
+"calories":"450",
+"image":"images/donkey-kicks.webp",
+"equipment":"None"
+},
+{
+"name":"Fire Hydrants",
+"duration":"40 Minutes",
+"difficulty":"Beginner",
+"calories":"180",
+"image":"images/fire-hydrants.webp",
+"equipment":"Yoga Mat"
+},
+{
+"name":"glute bridges",
+"duration":"45 Minutes",
+"difficulty":"Intermediate",
+"calories":"340",
+"image":"images/glute-bridge.webp",
+"equipment":"Dumbbells"
+},
+{
+"name":"Hip Thrusts",
+"duration":"40 Minutes",
+"difficulty":"Intermediate",
+"calories":"320",
+"image":"images/hip-thrust.webp",
+"equipment":"Resistance Bands"
+},
+{
+"name":"Lunges",
+"duration":"25 Minutes",
+"difficulty":"Beginner",
+"calories":"150",
+"image":"images/lunges.webp",
+"equipment":"Mat"
+},
+{
+"name":"Power Legs",
+"duration":"50 Minutes",
+"difficulty":"Advanced",
+"calories":"500",
+"image":"images/leg-press.webp",
+"equipment":"Barbell"
+},
+{
+"name":"Jump-squats",
+"duration":"30 Minutes",
+"difficulty":"Beginner",
+"calories":"200",
+"image":"images/jump-squats.webp",
+"equipment":"None"
+},
+{
+"name":"plank",
+"duration":"35 Minutes",
+"difficulty":"Intermediate",
+"calories":"280",
+"image":"images/plank.webp",
+"equipment":"Bands"
+},
+{
+"name":"side lunges",
+"duration":"60 Minutes",
+"difficulty":"Advanced",
+"calories":"600",
+"image":"images/side-lunges.webp",
+"equipment":"Mixed"
+},
+{
+"name":"step-ups",
+"duration":"20 Minutes",
+"difficulty":"Beginner",
+"calories":"140",
+"image":"images/step-ups.webp",
+"equipment":"None"
+},
+{
+"name":"spine stretch",
+"duration":"30 Minutes",
+"difficulty":"Intermediate",
+"calories":"210",
+"image":"images/spine-stretch.webp",
+"equipment":"Mat"
+}
+]
